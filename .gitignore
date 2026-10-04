@@ -34,6 +34,7 @@
 *.lib
 
 # Executables
+/main
 *.exe
 *.out
 *.app
@@ -66,3 +67,6 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Media
+*.mp4
