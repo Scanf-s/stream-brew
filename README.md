@@ -7,7 +7,7 @@ Video processing experiments
 Install the GStreamer development package, `pkg-config`, CMake, and a C++ compiler. From the project root, run:
 
 ```sh
-cmake -S ./src -B build
+cmake -S . -B build
 cmake --build build
 ./build/main sample.mp4
 ```
